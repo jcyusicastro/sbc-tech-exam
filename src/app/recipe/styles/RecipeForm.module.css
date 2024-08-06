@@ -1,0 +1,94 @@
+/* styles/AddRecipeForm.module.css */
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+.backButton {
+  align-self: flex-start;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #333;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  border-width: 5px;
+  max-width: 100%;
+  flex: 1;
+}
+
+.imagePlaceholder {
+  margin-right: 30px;
+}
+
+.imagePreview {
+  max-width: 80%;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+
+.fieldsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: #333;
+  border-width: 10px;
+  flex: 2;
+}
+
+.fieldLabel {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+.inputField, .textareaField {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.saveButton {
+  align-self: flex-end;
+  padding: 10px 20px;
+  background-color: #3b5998;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.deleteButton {
+  align-self: flex-end;
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.error {
+  border: 2px solid red;
+}
